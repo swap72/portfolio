@@ -124,3 +124,43 @@ footer {
         padding: 15px;
     }
 }
+
+
+/* IST Clock styling for footer */
+footer {
+    position: relative;
+}
+
+.clock-container {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: right;
+}
+
+.clock-time {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.clock-label {
+    font-size: 9px;
+    opacity: 0.7;
+    margin-top: 1px;
+}
+
+@media (max-width: 768px) {
+    .clock-container {
+        position: static;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .clock-time {
+        font-size: 11px;
+    }
+}
