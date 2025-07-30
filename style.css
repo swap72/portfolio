@@ -150,6 +150,8 @@ footer {
 }
 
 .clock-time {
+    font-family: 'OCR A Std', sans-serif;
+    color: #d9181180;
     font-weight: bold;
     font-size: 12px;
 }
