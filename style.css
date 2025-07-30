@@ -151,7 +151,8 @@ footer {
 
 .clock-time {
     font-family: 'OCR A Std', sans-serif;
-    color: #d9181180;
+    //color: #d9181180; // This is a special 8-digit hex code that includes alpha transparency 😎
+    color: #11D98280;
     font-weight: bold;
     font-size: 12px;
 }
