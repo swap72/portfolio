@@ -145,13 +145,13 @@ footer {
     right: 15px;
     font-family: 'Courier New', monospace;
     font-size: 11px;
-    color: rgba(255, 255, 255, 0.8);
+    color: #A8FFCB;
     text-align: right;
 }
 
 .clock-time {
     font-family: 'OCR A Std', sans-serif;
-    color: #11d98280;
+    color: #A8FFCB;
     font-weight: bold;
     font-size: 12px;
 }
